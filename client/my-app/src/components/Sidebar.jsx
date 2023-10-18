@@ -1,7 +1,12 @@
 import React from "react";
+import SidebarItems from "./Sidebaritems";
 
 const Sidebar = () => {
-  return <div>Sidebar</div>;
+  return (
+    <div className="hidden md:inline-flex md:p-[5px] md:mr-[10px] md:flex-[0.2]">
+      <SidebarItems />
+    </div>
+  );
 };
 
 export default Sidebar;
